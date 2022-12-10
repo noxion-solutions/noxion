@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>DCode - Saas & Payment Software Landing Page Website Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="DCode - Saas & Payment Software Landing Page Website Template" />
+    <meta name="description" content="Noxion - Saas & Payment Software Landing Page Website Template" />
     <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4" />
     <meta content="sacredthemes" name="author" />
     <!-- favicon -->
@@ -84,7 +84,7 @@
                                     <a href="#">About Us</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item">
-                                            <a href="{{route('about')}}">About Us</a>
+                                            <a href="{{ route('about') }}">About Us</a>
                                         </li>
                                         <li class="menu-item">
                                             <a href="page-aboutus-two.html">About Us Two</a>
@@ -96,28 +96,16 @@
                                     </ul>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="page-services.html">Services</a>
+                                    <a href="{{ route('services') }}">Services</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="page-career.html">Careers</a>
+                                    <a href="{{ route('careers') }}">Careers</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="page-job-details.html">Job Details</a>
+                                    <a href="{{ route('job-details') }}">Job Details</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children">
-                                    <a href="#">Contact Us</a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item">
-                                            <a href="page-contactus.html">Contact Us</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="page-contactus-two.html">Contact Us Two</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="page-contactus-three.html">Contact Us Three <span
-                                                    class="badge badge-danger rounded">New</span></a>
-                                        </li>
-                                    </ul>
+                                <li class="menu-item">
+                                    <a href="{{ route('contact') }}">Contact Us</a>
                                 </li>
                                 <li class="menu-item menu-item-has-children">
                                     <a href="#">Auth Pages</a>

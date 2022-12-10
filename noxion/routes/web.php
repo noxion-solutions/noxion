@@ -15,10 +15,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Pages
 Route::get('/', function () {
     return view('index');
 });
 Route::get('/about', [PagesController::class, 'aboutUs'])->name('about');
+Route::get('/services', [PagesController::class, 'services'])->name('services');
+Route::get('/careers', [PagesController::class, 'careers'])->name('careers');
+Route::get('/details', [PagesController::class, 'jobDetails'])->name('job-details');
+Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+
+// Auth
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

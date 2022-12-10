@@ -18,7 +18,7 @@
             </div>
         </div> --}}
         <!-- Page Header -->
-        <div style="padding" class="about-section section-padding">
+        <div style="margin-top:80px" class="about-section section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 wow fadeInLeft">
