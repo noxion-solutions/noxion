@@ -57,26 +57,29 @@
                                 visit the corresponding page on our web.</p>
                         </div>
                         <div class="contact-form">
-                            <form method="post">
+                            <form action="{{ route('store-contact') }}" method="post">
+                                @csrf
+                                @method('POST')
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="FiratName" placeholder="First Name"
-                                            required="">
+                                        <input type="text" name="firstName" class="form-control" id="FiratName"
+                                            placeholder="First Name" required="">
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+                                        <input type="text" class="form-control" name="lastName" id="LastName"
+                                            placeholder="Last Name">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="email" placeholder="Email Address"
-                                        required="">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Email Address" required="">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="subject"
+                                    <input type="text" class="form-control" name="subject" id="subject"
                                         placeholder="How can I help you?" required="">
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Tell me more about your requirement"></textarea>
+                                    <textarea class="form-control" name="message" placeholder="Tell me more about your requirement"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <input type="submit" class="btn btn-primary" value="Send Message">

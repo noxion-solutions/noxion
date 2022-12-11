@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -24,6 +25,7 @@ Route::get('/services', [PagesController::class, 'services'])->name('services');
 Route::get('/careers', [PagesController::class, 'careers'])->name('careers');
 Route::get('/details', [PagesController::class, 'jobDetails'])->name('job-details');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+Route::post('/contact', [ContactController::class, 'storeContact'])->name('store-contact');
 
 // Auth
 Route::get('/dashboard', function () {
