@@ -19,7 +19,7 @@
         </div> --}}
         <!-- Page Header -->
 
-        <div  style="margin-top:70px" class="section-padding light-bg">
+        <div style="margin-top:70px" class="section-padding light-bg">
             <div class="container">
                 <div class="row clearfix justify-content-center">
                     <div class="col-lg-8">
@@ -32,7 +32,7 @@
                         <!-- End Heading -->
                     </div><!-- End Col -->
                 </div><!-- End Row -->
-                <div class="row clearfix">
+                {{-- <div class="row clearfix">
                     <div class="col-lg-12">
                         <div class="panel-group style-2" id="accordion" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default">
@@ -109,7 +109,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

@@ -19,7 +19,7 @@
                             <h4>Enterprises . Growth Companies . Startups</h4>
                         </div>
                         <div class="btn-wrapper wow fadeInUp" data-wow-delay="0.4s">
-                            <a class="btn btn-primary" href="{{route('contact')}}">Let's Talk</a>
+                            <a class="btn btn-primary" href="{{ route('contact') }}">Let's Talk</a>
                         </div>
                     </div><!-- End Col -->
                 </div><!-- End Row -->
@@ -76,16 +76,17 @@
                                             src="{{ asset('noxion-resources/images/default-color/icon-20.svg') }}"
                                             alt="">
                                     </div>
-                                    <h3 class="dc-features-title">C#</h3>
+                                    <h3 class="dc-features-title">System maintenance</h3>
                                 </div>
                             </div>
                             <div class="dc-features-item-hover">
                                 <div class="inner-box">
-                                    <h3 class="dc-features-title">C#</h3>
-                                    <p>Here at Team In India our goals are to deliver work that exceeds our client's
-                                        satisfaction. With the strength of our core values and our vast array of
-                                        skills, we promise to deliver the ultimate web applications and services.
-                                       
+                                    <h3 class="dc-features-title">System maintenance</h3>
+                                    <p>A key part of keeping your website secure is ensuring all software and plugins are
+                                        kept up to date.
+                                        If you do not have the time to manage software updates yourself, we are on hand to
+                                        help. We can offer cost-effective packages to help support your
+                                        needs. Talk to us about what we can offer.
                                     </p>
                                 </div>
                             </div>
@@ -334,9 +335,9 @@
                         <div class="heading-wrapper text-center">
                             <h2 class="h1">Watch this video <span>Presentation</span> to Know More</h2>
                             <div class="lead-text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus mi id elit
+                                {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus mi id elit
                                     gravida, quis tincidunt purus fringilla. Aenean convallis a neque non
-                                    pellentesque.</p>
+                                    pellentesque.</p> --}}
                             </div>
                         </div><!-- End Heading -->
                         <div class="empty-space-60 clearfix"></div>
@@ -506,7 +507,7 @@
             </div>
         </div>
         <!-- Testimonial Section -->
-      
+
         <!-- companies Section -->
     </div>
 @endsection
