@@ -1,7 +1,7 @@
 @extends('noxion-layouts.app')
 @section('content')
 <div id="main-wrapper" class="page-wrapper">
-    <div style="margin-top:70px" class="section-padding style-light">
+    {{-- <div class="section-padding style-light">
         <div class="container">
             <div class="page-title-inner text-center clearfix">
                 <div class="heading-wrapper">
@@ -16,9 +16,9 @@
                 </ul><!-- End Breadcrumb -->
             </div><!-- Page Title Inner -->
         </div>
-    </div>
+    </div> --}}
     <!-- Page Header -->
-    <div class="about-section section-padding">
+    <div style="margin-top:70px"  class="about-section section-padding">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-4">

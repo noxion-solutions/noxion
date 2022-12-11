@@ -1,23 +1,8 @@
 @extends('noxion-layouts.app')
 @section('content')
     <div id="main-wrapper" class="page-wrapper">
-        <div class="section-padding" style="margin-top:80px">
-            <div class="container">
-                <div class="page-title-inner text-center clearfix">
-                    <div class="heading-wrapper">
-                        <h1 class="h1">Services</h1>
-                        <div class="lead-text">
-                            <p>What makes a great company? It's really easy. It's also the people that are working here.</p>
-                        </div>
-                    </div><!-- End Heading -->
-                    <ul class="st-breadcrumb">
-                        <li><a href="index-standard.html">Home</a></li>
-                        <li class="active"><span>Services</span></li>
-                    </ul><!-- End Breadcrumb -->
-                </div><!-- Page Title Inner -->
-            </div>
-        </div>
-        <div class="fact-section style-dark dark-bg">
+        
+        {{-- <div class="fact-section style-dark dark-bg">
             <div class="container">
                 <div class="row clearfix">
                     <div class="col-md-5">
@@ -88,9 +73,23 @@
                     </div><!-- End Col -->
                 </div><!-- End Row -->
             </div>
-        </div>
+        </div> --}}
         <!-- Page Header -->
-        <div class="service-section section-padding">
+        <div class="service-section section-padding" style="margin-top: 80px">
+            <div class="row clearfix justify-content-center">
+                <div class="col-lg-8">
+                    <div class="heading-wrapper with-separator text-center">
+                        <h2 class="h1">These Are The  <span>Services</span> We Offer</h2>
+                        <div class="lead-text">
+                            <p style="">We develop individualized software solutions, which is unique and beyond the standard
+                                approach, to meet client’s
+                                specific needs.</p>
+                        </div>
+                    </div>
+                    <!-- End Heading -->
+                    <div class="d-lg-none d-xl-block empty-space-30"></div>
+                </div><!-- End Col -->
+            </div><!-- End Row -->
             <div class="container">
                 <div class="row clearfix no-gutters dc-features-group">
                     <div class="col-lg-4 col-md-6 dc-features-item">
@@ -135,14 +134,7 @@
                                     <p>Here at Team In India our goals are to deliver work that exceeds our client's
                                         satisfaction. With the strength of our core values and our vast array of
                                         skills, we promise to deliver the ultimate web applications and services.
-                                        <li>ASP.NET</li>
-                                        <li>
-                                            C#
-                                        </li>
-                                        <li>
-                                            Umbraco
-                                        </li>
-                                        <li>DNN</li>
+                                       
                                     </p>
                                 </div>
                             </div>
@@ -322,7 +314,7 @@
                     </div><!-- End Col -->
                     <div class="col-lg-5">
                         <div class="call-to-action-btn text-right i-text-center">
-                            <a href="#" class="btn btn-primary btn-light btn-large">Contact Us Now!</a>
+                            <a href="{{route('contact')}}" class="btn btn-primary btn-light btn-large">Contact Us Now!</a>
                         </div>
                     </div><!-- End Col -->
                 </div><!-- End Row -->
