@@ -12,7 +12,7 @@
                     </div><!-- End Col -->
                     <div class="col-lg-6">
                         <div class="heading-wrapper with-separator wow fadeInLeft" data-wow-delay="0.2s">
-                            <h1>How other industries benefit from Noxion <span>Solutions</span></h1>
+                            <h1>How other industries benefit from Noxion <span>Solutions?</span></h1>
                         </div>
                         <div class="text-wrapper wow fadeInLeft" data-wow-delay="0.4s">
                             <p>We've been servicing UK businesses like yours with offshore teams for 20 years. In fact, we
