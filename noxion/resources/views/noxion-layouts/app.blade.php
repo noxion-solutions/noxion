@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>DCode - Saas & Payment Software Landing Page Website Template</title>
+    <title>Noxion Solutions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Noxion - Saas & Payment Software Landing Page Website Template" />
     <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4" />
@@ -32,23 +32,23 @@
     <!-- box-wrapper -->
     <div class="box-wrapper">
         <!-- Loader -->
-        <div id="preloader">
+        {{-- <div id="preloader">
             <div id="status">
                 <div class="d-loader">
                     <img src="{{ asset('noxion-resources/images/dcode-loader.gif') }}" alt="DCode">
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Loader -->
         <!-- Nav Bar -->
         <header id="master-head" class="navbar menu-absolute menu-center">
             <div class="container">
                 <div id="main-logo" class="logo-container">
                     <a class="logo" href="index-security-software.html">
-                        <img src="{{ asset('noxion-resources/images/d-code-logo-dark.svg') }}" class="logo-dark"
-                            alt="DCode">
-                        <img src="{{ asset('noxion-resources/images/d-code-logo-light.svg') }}" class="logo-light"
-                            alt="DCode">
+                        <img style="width: 191px;" src="{{ asset('noxion-resources/images/NoxionColor.png') }}"
+                            class="logo-dark" alt="DCode">
+                        <img style="width: 191px;" src="{{ asset('noxion-resources/images/noxionlogowhite.png') }}"
+                            class="logo-light" alt="DCode">
                     </a>
                 </div>
                 <div class="menu-toggle-btn">
