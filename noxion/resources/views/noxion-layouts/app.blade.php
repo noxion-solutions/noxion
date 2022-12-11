@@ -254,19 +254,14 @@
                                 <div class="text-widget">
                                     <div class="about-info">
                                         <div class="image-wrapper">
-                                            <img src="{{ asset('noxion-resources/images/d-code-logo-light.svg') }}"
+                                            <img src="{{ asset('noxion-resources/images/noxionlogowhite.png') }}"
                                                 alt="" />
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales
-                                            dictum viverra. Nam gravida dignissim eros.</p>
+                                        <p>Committed to meet deadlines, our deep software engineering and product
+                                            expertise offer the best solutions to your
+                                            business needs.</p>
                                     </div>
-                                    <div class="playstore-widget">
-                                        <h3>Download the App</h3>
-                                        <ul>
-                                            <li class="google"><a href="#">Google Play</a></li>
-                                            <li class="apple"><a href="#">App Store</a></li>
-                                        </ul>
-                                    </div>
+
                                 </div>
                             </div><!-- End Widget -->
                         </div><!-- End Col -->

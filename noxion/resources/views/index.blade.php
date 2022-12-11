@@ -30,11 +30,11 @@
             <div class="row clearfix justify-content-center">
                 <div class="col-lg-8">
                     <div class="heading-wrapper with-separator text-center">
-                        <h2 class="h1">Countless <span>Key Features</span></h2>
+                        <h2 class="h1">We Are The Real <span>Deal</span></h2>
                         <div class="lead-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus mi id elit
-                                gravida, quis tincidunt purus fringilla. Aenean convallis a neque non
-                                pellentesque.</p>
+                            <p>We develop individualized software solutions, which is unique and beyond the standard
+                                approach, to meet client’s
+                                specific needs.</p>
                         </div>
                     </div>
                     <!-- End Heading -->
@@ -257,9 +257,8 @@
                     <div class="heading-wrapper text-center">
                         <h2 class="h1"><span>Process is Everything</span> - How It Works</h2>
                         <div class="lead-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus mi id elit
-                                gravida, quis tincidunt purus fringilla. Aenean convallis a neque non
-                                pellentesque.</p>
+                            <p>Core values are critical if you want to create a long-lasting, successful,
+                                and motivating place to work.</p>
                         </div>
                     </div><!-- End Heading -->
                 </div><!-- End Col -->
@@ -449,9 +448,7 @@
                     <div class="heading-wrapper">
                         <h2 class="h1">Happy Clients <span>Feedback</span></h2>
                         <div class="lead-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus mi id elit
-                                gravida, quis tincidunt purus fringilla. Aenean convallis a neque non
-                                pellentesque.</p>
+                            <p>Creating Impact with Our Technology Partners</p>
                         </div>
                     </div><!-- End Heading -->
                 </div><!-- End Col -->
@@ -536,9 +533,9 @@
                     <div class="heading-wrapper text-center with-separator">
                         <h2 class="h1">Trusted by many <span>industries</span></h2>
                         <div class="lead-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus mi id elit
+                            {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus mi id elit
                                 gravida, quis tincidunt purus fringilla. Aenean convallis a neque non
-                                pellentesque.</p>
+                                pellentesque.</p> --}}
                         </div>
                     </div>
                 </div><!-- End Col -->
