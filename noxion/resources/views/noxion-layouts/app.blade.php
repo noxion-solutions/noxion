@@ -270,7 +270,7 @@
                                 </div>
                             </div><!-- End Widget -->
                         </div><!-- End Col -->
-                        <div class="col-lg-2">
+                        <div class="col-lg-4">
                             <div class="widget">
                                 <div class="widget-title">
                                     <h3 class="title">Useful Links</h3>
@@ -278,17 +278,16 @@
                                 <div class="text-widget">
                                     <div class="footer-nav">
                                         <ul>
-                                            <li><a href="#">Trust & Safety</a></li>
-                                            <li><a href="#">Cookie Policy</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Terms of Service</a></li>
+                                            <li><a href="{{route('about')}}">About Us</a></li>
+                                            <li><a href="{{route('services')}}">Services</a></li>
+                                            <li><a href="{{route('careers')}}">Careers</a></li>
+                                            <li><a href="{{route('contact')}}">Contact Us</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div><!-- End Widget -->
                         </div><!-- End Col -->
-                        <div class="col-lg-2">
+                        {{-- <div class="col-lg-2">
                             <div class="widget">
                                 <div class="widget-title">
                                     <h3 class="title">Support</h3>
@@ -304,7 +303,7 @@
                                     </div>
                                 </div>
                             </div><!-- End Widget -->
-                        </div><!-- End Col -->
+                        </div><!-- End Col --> --}}
                         <div class="col-lg-4">
                             <div class="widget">
                                 <div class="widget-title">
@@ -313,20 +312,18 @@
                                 <div class="text-widget">
                                     <div class="contact-info">
                                         <ul>
-                                            <li class="email-field">support@sacredthemes.net</li>
-                                            <li class="phone-field">+1 (234) 567-9801</li>
-                                            <li class="address-field">49 Uniqe Square D, New York, NY 10003, USA</li>
+                                            <li class="email-field">management@noxions.com</li>
+                                            <li class="phone-field">+447 878 190 391</li>
+                                            <li class="address-field">127 The Boxhill
+                                                Coventry
+                                                CV3 1EU</li>
                                         </ul>
                                     </div>
                                     <div class="social-media-links">
                                         <ul>
-                                            <li><a target="_blank" href="https://www.facebook.com/sacredthemes/"><i
-                                                        class="fab fa-facebook-f"></i></a></li>
-                                            <li><a target="_blank"
-                                                    href="https://www.linkedin.com/company/sacredthemes/"><i
-                                                        class="fab fa-linkedin-in"></i></a></li>
-                                            <li><a target="_blank" href="https://twitter.com/SacredThemes"><i
-                                                        class="fab fa-twitter"></i></a></li>
+                                            <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -336,14 +333,14 @@
                 </div>
                 <div class="copyright-bar style-dark">
                     <div class="copyright-text text-center">
-                        © Copyright DCode 2020. Made with <i class="fas fa-heart"></i> by <a
-                            href="https://sacredthemes.net" target="_blank"><strong>SacredThemes</strong></a>.
+                        © Copyright Noxion Solutions. Made with <i class="fas fa-heart"></i> by <a
+                            href="https://noxions.com" target="_blank"><strong>Noxion</strong></a>.
                     </div>
                 </div>
             </div>
         </footer>
         <!-- Main Footer -->
-        <div id="theme-option" class="option-panel">
+        {{-- <div id="theme-option" class="option-panel">
             <h3>Select Your Color</h3>
             <ul class="pattern-color-list">
                 <li><a href="#" data-url="default-color" class="default-color active"></a></li>
@@ -360,10 +357,10 @@
                     <i class="mdi mdi-cog-outline mdi-spin"></i>
                 </a>
             </div>
-        </div>
+        </div> --}}
     </div>
     <!-- box-wrapper -->
-    <div class="overlay overlay-search">
+    {{-- <div class="overlay overlay-search">
         <div class="close-search">
             <span class="lines"></span>
         </div>
@@ -375,7 +372,7 @@
                 </div>
             </form>
         </div>
-    </div>
+    </div> --}}
     <!--search-form-->
 
     <!-- javascript -->
