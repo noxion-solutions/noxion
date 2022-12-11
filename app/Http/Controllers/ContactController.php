@@ -17,6 +17,7 @@ class ContactController extends Controller
         $contact->message = $req->input('message');
         $contact->email = $req->input('email');
         $contact->save();
+        // 
         return view('layouts.pages.contact');
     }
 }
