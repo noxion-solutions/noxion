@@ -9,7 +9,7 @@
     <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4" />
     <meta content="sacredthemes" name="author" />
     <!-- favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="{{ asset('noxion-resources/images/Favicon.png') }}">
     <!-- WOW Animation -->
     <link href="{{ asset('noxion-resources/css/animate.css') }}" rel="stylesheet" type="text/css" />
     <!-- Bootstrap css -->
