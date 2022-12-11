@@ -44,7 +44,7 @@
         <header id="master-head" class="navbar menu-absolute menu-center">
             <div class="container">
                 <div id="main-logo" class="logo-container">
-                    <a class="logo" href="index-security-software.html">
+                    <a class="logo" href="{{route('/')}}">
                         <img style="width: 191px;" src="{{ asset('noxion-resources/images/NoxionColor.png') }}"
                             class="logo-dark" alt="DCode">
                         <img style="width: 191px;" src="{{ asset('noxion-resources/images/noxionlogowhite.png') }}"

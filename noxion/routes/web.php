@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 // Pages
 Route::get('/', function () {
     return view('index');
-});
+})->name('/');
 Route::get('/about', [PagesController::class, 'aboutUs'])->name('about');
 Route::get('/services', [PagesController::class, 'services'])->name('services');
 Route::get('/careers', [PagesController::class, 'careers'])->name('careers');

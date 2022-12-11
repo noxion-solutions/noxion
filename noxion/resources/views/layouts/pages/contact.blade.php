@@ -42,7 +42,8 @@
                             <div class="content">
                                 <h4>Email</h4>
                                 <p>Our support team will get back to in 48-h during standard business hours.</p>
-                                <p><a class="btn link-btn" href="mailto:example@gmail.com">management@noxions.com</a>
+                                <p><a class="btn link-btn"
+                                        href="mailto:management@noxions.com">management@noxions.com</a>
                                 </p>
                             </div>
                         </div>
