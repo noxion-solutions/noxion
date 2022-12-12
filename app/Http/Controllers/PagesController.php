@@ -27,4 +27,8 @@ class PagesController extends Controller
     {
         return view('layouts.pages.contact');
     }
+    public function team()
+    {
+        return view('layouts.pages.our-team');
+    }
 }

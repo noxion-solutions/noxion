@@ -26,7 +26,7 @@ Route::get('/careers', [PagesController::class, 'careers'])->name('careers');
 Route::get('/details', [PagesController::class, 'jobDetails'])->name('job-details');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::post('/contact', [ContactController::class, 'storeContact'])->name('store-contact');
-
+Route::get('/team', [PagesController::class, 'team'])->name('team');
 // Auth
 Route::get('/dashboard', function () {
     return view('dashboard');

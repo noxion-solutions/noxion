@@ -80,7 +80,9 @@
                             <a href="{{route('contact')}}">Contact Us</a>
                         
                         </li>
-                        
+                        <li class="menu-item">
+                        <a href="{{route('team')}}">Our Team</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="navbar-right">
@@ -133,6 +135,7 @@
                                             <li><a href="{{route('services')}}">Services</a></li>
                                             <li><a href="{{route('careers')}}">Careers</a></li>
                                             <li><a href="{{route('contact')}}">Contact Us</a></li>
+                                            <li><a href="{{route('team')}}">Our Team</a></li>
                                         </ul>
                                     </div>
                                 </div>

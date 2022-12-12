@@ -1,7 +1,28 @@
 @extends('noxion-layouts.app')
 @section('content')
-    <div id="main-wrapper" class="page-wrapper">
-        
+    <div id="main-wrapper" class="page-wrapper" style="margin-top: 90px;">
+        <div class="page-header section-padding style-dark full-height dc-eight">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="heading-wrapper wow fadeInRight" data-wow-delay="0.2s">
+                            <h1>We provide <span>some of the best</span> services at Noxions.</h1>
+                        </div>
+                        <div class="text-wrapper wow fadeInRight" data-wow-delay="0.4s">
+                        </div>
+                        <div class="btn-wrapper wow fadeInRight" data-wow-delay="0.5s">
+                            <a class="btn btn-primary btn-light " href="#">Explore</a>
+                        </div>
+                    </div><!-- End Col -->
+                    <div class="col-lg-6">
+                        <div class="image-wrapper">
+                            <img src="{{ asset('noxion-resources/images/default-color/lms-software-img.png') }}"
+                                alt="" />
+                        </div>
+                    </div><!-- End Col -->
+                </div><!-- End Row -->
+            </div>
+        </div>
         {{-- <div class="fact-section style-dark dark-bg">
             <div class="container">
                 <div class="row clearfix">
@@ -79,9 +100,10 @@
             <div class="row clearfix justify-content-center">
                 <div class="col-lg-8">
                     <div class="heading-wrapper with-separator text-center">
-                        <h2 class="h1">These Are The  <span>Services</span> We Offer</h2>
+                        <h2 class="h1">These Are The <span>Services</span> We Offer</h2>
                         <div class="lead-text">
-                            <p style="">We develop individualized software solutions, which is unique and beyond the standard
+                            <p style="">We develop individualized software solutions, which is unique and beyond the
+                                standard
                                 approach, to meet client’s
                                 specific needs.</p>
                         </div>
@@ -134,7 +156,7 @@
                                     <p>Here at Team In India our goals are to deliver work that exceeds our client's
                                         satisfaction. With the strength of our core values and our vast array of
                                         skills, we promise to deliver the ultimate web applications and services.
-                                       
+
                                     </p>
                                 </div>
                             </div>
@@ -314,7 +336,8 @@
                     </div><!-- End Col -->
                     <div class="col-lg-5">
                         <div class="call-to-action-btn text-right i-text-center">
-                            <a href="{{route('contact')}}" class="btn btn-primary btn-light btn-large">Contact Us Now!</a>
+                            <a href="{{ route('contact') }}" class="btn btn-primary btn-light btn-large">Contact Us
+                                Now!</a>
                         </div>
                     </div><!-- End Col -->
                 </div><!-- End Row -->
@@ -337,10 +360,11 @@
                                 <div class="item">
                                     <div class="client-info-wrapper">
                                         <div class="client-img">
-                                            <img src="images/team-4-square.jpg" alt="client">
+                                            <img src="{{ asset('noxion-resources/images/empty_person.png') }}"
+                                                alt="client">
                                         </div>
                                         <div class="client-info">
-                                            <h5>Andy Sant</h5>
+                                            <h5>Cameron McDonalds</h5>
                                             <p>Founder Coinpool</p>
                                         </div>
                                     </div>
@@ -355,10 +379,11 @@
                                 <div class="item">
                                     <div class="client-info-wrapper">
                                         <div class="client-img">
-                                            <img src="images/team-3-square.jpg" alt="client">
+                                            <img src="{{ asset('noxion-resources/images/empty_person.png') }}"
+                                                alt="client">
                                         </div>
                                         <div class="client-info">
-                                            <h5>Andy Sant</h5>
+                                            <h5>Stephen Johnson</h5>
                                             <p>Founder Coinpool</p>
                                         </div>
                                     </div>
@@ -373,10 +398,11 @@
                                 <div class="item">
                                     <div class="client-info-wrapper">
                                         <div class="client-img">
-                                            <img src="images/team-5-square.jpg" alt="client">
+                                            <img src="{{ asset('noxion-resources/images/empty_person.png') }}"
+                                                alt="client">
                                         </div>
                                         <div class="client-info">
-                                            <h5>Dan Kaul</h5>
+                                            <h5>Andrew Smith</h5>
                                             <p>IT Consultant</p>
                                         </div>
                                     </div>
@@ -390,10 +416,11 @@
                                 <div class="item">
                                     <div class="client-info-wrapper">
                                         <div class="client-img">
-                                            <img src="images/team-1-square.jpg" alt="client">
+                                            <img src="{{ asset('noxion-resources/images/empty_person.png') }}"
+                                                alt="client">
                                         </div>
                                         <div class="client-info">
-                                            <h5>Saru Matt</h5>
+                                            <h5>Kyle Morello</h5>
                                             <p>Customer</p>
                                         </div>
                                     </div>
@@ -409,10 +436,11 @@
                                 <div class="item">
                                     <div class="client-info-wrapper">
                                         <div class="client-img">
-                                            <img src="images/team-2-square.jpg" alt="client">
+                                            <img src="{{ asset('noxion-resources/images/empty_person.png') }}"
+                                                alt="client">
                                         </div>
                                         <div class="client-info">
-                                            <h5>Yommi Pat</h5>
+                                            <h5>Patrick Green</h5>
                                             <p>Customer</p>
                                         </div>
                                     </div>
