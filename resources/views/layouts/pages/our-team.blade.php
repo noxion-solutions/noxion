@@ -42,19 +42,14 @@
             </div><!-- End Row -->
             <div class="row">
                 <div class="col-lg-3 col-md-6">
-                    <div class="st-team-member theme-one wow fadeInUp">
+                    <div class="st-team-member theme-one wow">
                         <div class="team-member-wrapper">
                             <div class="st-team-image">
                                 <img style="
-                                object-fit: cover;
-                            "
+                                object-fit: cover;"
                                     src="{{ asset('noxion-resources/images/team1.jpeg') }}" width="270" height="330"
                                     alt="">
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+
                             </div>
                             <div class="st-team-member-detail">
                                 <h3 class="member-name">Dan Kaul</h3>
@@ -72,10 +67,7 @@
                             "
                                     src="{{ asset('noxion-resources/images/team2.jpeg') }}" width="270" height="330"
                                     alt="">
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+
                             </div>
                             <div class="st-team-member-detail">
                                 <h3 class="member-name">Andy Sant</h3>
@@ -93,11 +85,7 @@
                             "
                                     src="{{ asset('noxion-resources/images/team3.jpeg') }}" width="270" height="330"
                                     alt="">
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
+
                             </div>
                             <div class="st-team-member-detail">
                                 <h3 class="member-name">David Callis</h3>
@@ -115,11 +103,7 @@
                             "
                                     src="{{ asset('noxion-resources/images/team4.jpeg') }}" width="270" height="330"
                                     alt="">
-                                <div class="team-social">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
+
                             </div>
                             <div class="st-team-member-detail">
                                 <h3 class="member-name">Robbie Williams</h3>

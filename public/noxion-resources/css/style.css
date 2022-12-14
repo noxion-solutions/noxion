@@ -4220,9 +4220,7 @@ ul.three-col li {
 	transition: all 500ms ease-in-out;
 }
 
-.st-team-member.theme-one:hover .st-team-image img {
-	opacity: 0.1;
-}
+
 
 .st-team-member.theme-one .team-social {
 	position: absolute;

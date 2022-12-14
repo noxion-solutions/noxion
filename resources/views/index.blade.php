@@ -373,7 +373,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="heading-wrapper text-center with-separator">
-                            <h2 class="h1">Trusted by many <span>industries</span></h2>
+                            <h2 class="h1">Trusted by many <span>partners</span></h2>
                             <div class="lead-text">
                                 {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus mi id elit
                                 gravida, quis tincidunt purus fringilla. Aenean convallis a neque non
@@ -386,33 +386,50 @@
                     <div class="col-lg-12">
                         <div class="companies-logo">
                             <div class="item">
-                                <div class="logo-wrapper"><img
-                                        src="{{ asset('noxion-resources/images/company-logo-1.png') }}" alt="">
-                                    <h5>Real Estate</h5>
+                                <div class="logo-wrapper"><img style="
+                                    width: 150px;
+                                    height: 34px;
+                                    object-fit: contain;
+                                "
+                                        src="{{ asset('noxion-resources/images/company1.avif') }}" alt="">
+                                    {{-- <h5>The Coffee Bean & Tea Leaf</h5> --}}
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="logo-wrapper"><img
-                                        src="{{ asset('noxion-resources/images/company-logo-2.png') }}" alt="">
-                                    <h5>e-Commerce</h5>
+                                <div class="logo-wrapper"><img style="
+                                    width: 150px;
+                                    object-fit: contain;
+                                    height: 44px;
+                                "
+                                        src="{{ asset('noxion-resources/images/company2.png') }}" alt="">
+                                    {{-- <h5>e-Commerce</h5> --}}
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="logo-wrapper"><img
-                                        src="{{ asset('noxion-resources/images/company-logo-3.png') }}" alt="">
-                                    <h5>Healthcare</h5>
+                                <div class="logo-wrapper"><img style="
+                                    object-fit: contain;
+                                "
+                                        src="{{ asset('noxion-resources/images/company3.png') }}" alt="">
+                                    {{-- <h5>Healthcare</h5> --}}
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="logo-wrapper"><img
-                                        src="{{ asset('noxion-resources/images/company-logo-4.png') }}" alt="">
-                                    <h5>Technology</h5>
+                                <div class="logo-wrapper"><img style="
+                                    object-fit: contain;
+                                    height: 60px;
+                                "
+                                        src="{{ asset('noxion-resources/images/company4.png') }}" alt="">
+                                    {{-- <h5>Healthcare</h5> --}}
                                 </div>
                             </div>
+
                             <div class="item">
-                                <div class="logo-wrapper"><img
-                                        src="{{ asset('noxion-resources/images/company-logo-5.png') }}" alt="">
-                                    <h5>Finance</h5>
+                                <div class="logo-wrapper"><img style="
+                                    object-fit: contain;
+                                    height: 60px;
+                                "
+                                        src="{{ asset('noxion-resources/images/circles-logo-white-header.png') }}" alt="">
+                                    {{-- <h5>Healthcare</h5> --}}
                                 </div>
                             </div>
                         </div>
