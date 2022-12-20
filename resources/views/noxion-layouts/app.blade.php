@@ -5,9 +5,6 @@
     <meta charset="utf-8" />
     <title>Noxion Solutions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Noxion - Saas & Payment Software Landing Page Website Template" />
-    <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4" />
-    <meta content="sacredthemes" name="author" />
     <!-- favicon -->
     <link rel="shortcut icon" href="{{ asset('noxion-resources/images/Favicon.png') }}">
     <!-- WOW Animation -->
@@ -75,19 +72,19 @@
                         <li class="menu-item">
                             <a href="{{ route('careers') }}">Careers</a>
                         </li>
-                        
+
                         <li class="menu-item">
                             <a href="{{route('contact')}}">Contact Us</a>
-                        
+
                         </li>
                         <li class="menu-item">
-                        <a href="{{route('team')}}">Our Team</a>
+                            <a href="{{route('team')}}">Our Team</a>
                         </li>
                     </ul>
                 </div>
                 <div class="navbar-right">
                     <div class="menu-button">
-                        <a href="#" target="_blank">
+                        <a href="{{route('login')}}" target="_blank">
                             <div class="btn btn-primary" style="padding: 5px 20px 5px 20px"><svg
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="white" class="w-6 h-6" style="width: 20px;">
